@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">   
+    <title>Java Script osnove-zadaci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <header>
+        <h1>Java Script Osnove - zadaci</h1>
+    </header>
+
+    <body>
+        <section class="container">
+            <div id="name">
+                <div id="myName"></div>
+                    <button id="showList" class="btn btn-dark" onclick="showList()">
+                    Prikazi sva slova imena obrnutim redom</button> 
+                    <ul id='list'></ul>
+                </div>
+                <form id="my-form">
+                    <h3>Izracunaj povrsinu trougla</h3>
+                    <div>
+                        <label for="stranicaA">Stranica a:</label>
+                        <input type="text" id="a">
+                    </div>
+                    <div>
+                        <label for="stranicaB">Stranica b:</label>
+                        <input type="text" id="b">
+                    </div>
+                    <div>
+                        <label for="stranicaC">Stranica c:</label>
+                        <input type="text" id="c">
+                    </div>
+                    <div>
+                        <label for="p">Povrsina: </label>
+                        <input type="text" name="P" id="povrsina" readonly="readonly">
+                    </div>
+                    <input type="button" class="btn btn-dark" onclick="izracunaj()" value="Izracunaj povrsinu">
+                    <input type="button" class="btn btn-dark" onclick="obim()" value="Izracunaj obim trougla">
+                    <div id="aaa">
+                        <p id="obim"></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="container">
+            <div id="telephones">
+                <div id="showTelephones">
+                    <button id="showTelephone" class="btn btn-dark" onclick="theCheapestPhone()">
+                            Prikazi najjeftiniji telefon</button> 
+                    <div id="cheapest"></div>        
+                </div>        
+                <div id="listTelephones" class="telephone-card"></div>
+                <div >
+                    <button class="btn btn-dark" onclick="showAverageBattery()">
+                        Prikazi prosecnu jacinu baterije</button>  
+                    <div id="average"></div> 
+                </div>   
+             </div>   
+        </section>
+        <section class="container">
+            <div id="addUser">
+                <form id="form-user">
+                    <h3>Unesi podatke</h3>
+                    <div>
+                        <label for="firstName">Ime:</label>
+                        <input type="text" id="firstName">
+                    </div>
+                    <div>
+                        <label for="lastName">Prezime:</label>
+                        <input type="text" id="lastName">
+                    </div>
+                    <button class="btn btn-dark" onclick="addNewUser(1);return false">
+                            Dodaj osobu na listu</button>              
+                </form> 
+                <div id="newUser">
+                    <ol id="new"></ol>
+                </div>             
+             </div>
+              
+        </section>
+        <script src="vezba.js"></script>
+    </body>
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6
+}
+ul {
+    list-style: none;
+    margin: auto;
+    overflow: auto;
+}
+ul li {
+    padding: 5px;
+    margin: 5px 0;
+}
+header {
+    background: #444;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.container {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+#name {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#myName {
+    margin: auto;
+    text-align: center;
+  
+}
+#my-form {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#my-form label {
+    display: block;
+}
+#my-form input[type='text'] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 70%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.btn:hover {
+    background: #444;
+}
+  
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+#aaa {
+    margin: 20px;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#listTelephones {
+    margin: auto;
+    overflow: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+.telephone-card {
+    margin-left: 10px;
+    margin-bottom: 10px;  
+    
+}
+
+.card {  
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#telephones {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#form-user {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#form-user label {
+    display: block;
+}
+#form-user input[type='text'] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#newUser {
+    margin: auto;
+  
+    text-align: center;
+}
+ol {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
